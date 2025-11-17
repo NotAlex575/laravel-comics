@@ -9,3 +9,5 @@ Route::get('/', function () {
 Route::get('/news', function () {
     return view('news');
 })->name("news");
+
+

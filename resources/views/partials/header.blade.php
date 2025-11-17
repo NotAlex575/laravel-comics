@@ -3,7 +3,7 @@
         <div class="container">
 
             <!-- Logo -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href={{ route("homepage") }}>
                 <img src="{{ asset('assets/img/dc-logo.png') }}" alt="DC Logo" height="50">
             </a>
 
@@ -25,7 +25,7 @@
                     <li class="nav-item"><a class="nav-link fw-bold" href="#">COLLECTIBLES</a></li>
                     <li class="nav-item"><a class="nav-link fw-bold" href="#">VIDEOS</a></li>
                     <li class="nav-item"><a class="nav-link fw-bold" href="#">FANS</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="#">NEWS</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href={{ route("news") }}>NEWS</a></li>
                     <li class="nav-item"><a class="nav-link fw-bold" href="#">SHOP</a></li>
                 </ul>
             </div>

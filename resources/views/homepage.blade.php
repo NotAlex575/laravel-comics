@@ -8,14 +8,6 @@
 <div style="background-color: #1E1E1E; padding: 2rem;">
     
     @php
-         /*
-
-            <x-card>
-                    <x-slot:thumb>{{ $comic["thumb"] }}</x-slot:thumb>
-                    <x-slot:series>{{ $comic["series"] }}</x-slot:series>
-                </x-card>
-
-        */
         //prendiamo gli array di comics e li salviamo dentro una variabile
         $comics = config("comics");
     @endphp
